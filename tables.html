@@ -7,12 +7,38 @@
 
     <style>
         table, th, td {
-            border: 5px solid black;
+            border: 3px solid #D8D8D8;
             border-collapse: collapse;
         }
         th, td {
+            background: #F9F9F7;
             padding: 5px;
             text-align: left;
+        }
+
+         #navMenu{
+
+             display: flex;
+             flex-direction: row;
+
+             margin: 0;
+             padding: 0;
+             list-style-type: none;
+         }
+
+
+
+        #navMenu>li>a{
+            font-size: 30px;
+            background-color: #0F437F;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            font-weight: bold;
+
+            width: 200px;
+
+            display: block;
         }
     </style>
 
@@ -26,13 +52,13 @@
 
 
 <body>
-<div>
-    <A HREF="index.html">HOME</A>
-    <A HREF="tables.html">TABLES</A>
-    <A HREF="statistic.html">STATISTIC</A>
-    <A HREF="photos.html">PHOTOS</A>
-    <A HREF="goal.html">BEST GOAL</A>
-</div>
+<ul id="navMenu">
+    <li><A HREF="index.html">HOME</A></li>
+    <li><A HREF="tables.html">TABLES</A></li>
+    <li><A HREF="statistic.html">STATISTIC</A></li>
+    <li><A HREF="photos.html">PHOTOS</A></li>
+    <li><A HREF="goal.html">BEST GOAL</A></li>
+</ul>
 
 <table>
     <caption>ФІНАЛ</caption>

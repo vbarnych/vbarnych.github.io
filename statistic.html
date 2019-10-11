@@ -6,12 +6,38 @@
 
     <style>
         table, th, td {
-            border: 5px solid black;
+            border: 3px solid #D8D8D8;
             border-collapse: collapse;
         }
         th, td {
+            background: #F9F9F7;
             padding: 5px;
             text-align: left;
+        }
+
+         #navMenu{
+
+             display: flex;
+             flex-direction: row;
+
+             margin: 0;
+             padding: 0;
+             list-style-type: none;
+         }
+
+
+
+        #navMenu>li>a{
+            font-size: 30px;
+            background-color: #0F437F;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            font-weight: bold;
+
+            width: 200px;
+
+            display: block;
         }
     </style>
 
@@ -24,22 +50,25 @@
 
 
 <body>
-<div>
-    <A HREF="index.html">HOME</A>
-    <A HREF="tables.html">TABLES</A>
-    <A HREF="statistic.html">STATISTIC</A>
-    <A HREF="photos.html">PHOTOS</A>
-    <A HREF="goal.html">BEST GOAL</A>
 
+<ul id="navMenu">
+    <li><A HREF="index.html">HOME</A></li>
+    <li><A HREF="tables.html">TABLES</A></li>
+    <li><A HREF="statistic.html">STATISTIC</A></li>
+    <li><A HREF="photos.html">PHOTOS</A></li>
+    <li><A HREF="goal.html">BEST GOAL</A></li>
+</ul>
+
+<div style="display: flex; flex-direction: row; justify-content: space-between">
     <table>
         <caption>БОМБАРДИРИ</caption>
         <tr>
             <th></th>
             <th>Ім'я</th>
-            <th>Команда</th>
+            <th width="600px">Команда</th>
             <th>М</th>
             <th>Г</th>
-            <th>Пен</th>
+            <th >Пен</th>
             <th>П</th>
             <th>Г+П</th>
 
@@ -156,6 +185,109 @@
         </tr>
     </table>
 
+    <img style="width: 500px; height: 355px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ85Jtwulm330uiFLb8Mmp-xudkk5F5oHJPD_5nICw9ldic57i">
+</div>
+
+<br>
+
+<div style="display: flex; flex-direction: row; justify-content: space-between">
+
+
+    <table>
+        <caption>ФОЛИ</caption>
+        <tr>
+            <th></th>
+            <th>Ім'я</th>
+            <th width="635px">Команда</th>
+            <th>М</th>
+            <th>ЖК</th>
+            <th>ЧК</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Себастьян Ларссон</td>
+            <td>Швеція</td>
+            <td>4</td>
+            <td>3</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Каземиро</td>
+            <td>Бразилія</td>
+            <td>4</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Люка Эрнандес</td>
+            <td>Франція</td>
+            <td>7</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Чжон У Ен</td>
+            <td>Південна Корея</td>
+            <td>3</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Александар Митрович</td>
+            <td>Сербія</td>
+            <td>3</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Анте Ребич</td>
+            <td>Хорватія</td>
+            <td>6</td>
+            <td>2</td>
+            <td>0</td>
+
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Армандо Купер</td>
+            <td>Панама</td>
+            <td>2</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Блез Матюиди</td>
+            <td>Франція</td>
+            <td>5</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Валон Бехрами</td>
+            <td>Швейцарія</td>
+            <td>4</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+
+        <tr>
+            <td>7</td>
+            <td>Вильмар Барриос</td>
+            <td>Колумбія</td>
+            <td>3</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+    </table>
+
+    <img src="https://bet-ring.ru/sites/default/files/imagecache/width_600/promotions/sandro-vizer_1418575458735427181.jpg"  width="500" height="355">
 </div>
 
 
